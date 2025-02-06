@@ -13,6 +13,17 @@
 		9ED9630C2D5310F6008E82B9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9630B2D5310F6008E82B9 /* LoginViewModel.swift */; };
 		9ED9630E2D533216008E82B9 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9630D2D533216008E82B9 /* PersonViewController.swift */; };
 		9ED963112D533767008E82B9 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963102D533767008E82B9 /* PersonViewModel.swift */; };
+		9ED9632D2D543AAF008E82B9 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9632A2D543AAF008E82B9 /* MarketViewController.swift */; };
+		9ED9632E2D543AAF008E82B9 /* BoxOfficeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963272D543AAF008E82B9 /* BoxOfficeViewModel.swift */; };
+		9ED9632F2D543AAF008E82B9 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963292D543AAF008E82B9 /* Market.swift */; };
+		9ED963302D543AAF008E82B9 /* BoxOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963252D543AAF008E82B9 /* BoxOffice.swift */; };
+		9ED963312D543AAF008E82B9 /* MarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9632B2D543AAF008E82B9 /* MarketViewModel.swift */; };
+		9ED963322D543AAF008E82B9 /* BoxOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963262D543AAF008E82B9 /* BoxOfficeViewController.swift */; };
+		9ED963342D544DFB008E82B9 /* MarketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963332D544DFB008E82B9 /* MarketDetailViewController.swift */; };
+		9ED963362D5454F4008E82B9 /* MarketDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963352D5454F4008E82B9 /* MarketDetailViewModel.swift */; };
+		9ED9633A2D547A19008E82B9 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963392D547A19008E82B9 /* Bundle+Extension.swift */; };
+		9ED9633C2D547A53008E82B9 /* scret.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9ED9633B2D547A53008E82B9 /* scret.xcconfig */; };
+		9ED9633E2D5487DB008E82B9 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9633D2D5487DB008E82B9 /* EmptyViewController.swift */; };
 		9EFEEFDC2D504C820028E0E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFEEFD52D504C820028E0E3 /* Assets.xcassets */; };
 		9EFEEFDE2D504C820028E0E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFEEFD82D504C820028E0E3 /* LaunchScreen.storyboard */; };
 		9EFEEFDF2D504C820028E0E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFEEFD42D504C820028E0E3 /* AppDelegate.swift */; };
@@ -33,6 +44,17 @@
 		9ED9630B2D5310F6008E82B9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		9ED9630D2D533216008E82B9 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		9ED963102D533767008E82B9 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		9ED963252D543AAF008E82B9 /* BoxOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOffice.swift; sourceTree = "<group>"; };
+		9ED963262D543AAF008E82B9 /* BoxOfficeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeViewController.swift; sourceTree = "<group>"; };
+		9ED963272D543AAF008E82B9 /* BoxOfficeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeViewModel.swift; sourceTree = "<group>"; };
+		9ED963292D543AAF008E82B9 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		9ED9632A2D543AAF008E82B9 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		9ED9632B2D543AAF008E82B9 /* MarketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewModel.swift; sourceTree = "<group>"; };
+		9ED963332D544DFB008E82B9 /* MarketDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailViewController.swift; sourceTree = "<group>"; };
+		9ED963352D5454F4008E82B9 /* MarketDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailViewModel.swift; sourceTree = "<group>"; };
+		9ED963392D547A19008E82B9 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		9ED9633B2D547A53008E82B9 /* scret.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = scret.xcconfig; sourceTree = "<group>"; };
+		9ED9633D2D5487DB008E82B9 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
 		9EFEEFBC2D504C680028E0E3 /* SeventhWeek_SeSAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeventhWeek_SeSAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFEEFD42D504C820028E0E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EFEEFD52D504C820028E0E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +108,29 @@
 			path = Person;
 			sourceTree = "<group>";
 		};
+		9ED963282D543AAF008E82B9 /* BoxOffice */ = {
+			isa = PBXGroup;
+			children = (
+				9ED963252D543AAF008E82B9 /* BoxOffice.swift */,
+				9ED963262D543AAF008E82B9 /* BoxOfficeViewController.swift */,
+				9ED963272D543AAF008E82B9 /* BoxOfficeViewModel.swift */,
+			);
+			path = BoxOffice;
+			sourceTree = "<group>";
+		};
+		9ED9632C2D543AAF008E82B9 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				9ED963292D543AAF008E82B9 /* Market.swift */,
+				9ED9632A2D543AAF008E82B9 /* MarketViewController.swift */,
+				9ED9632B2D543AAF008E82B9 /* MarketViewModel.swift */,
+				9ED963332D544DFB008E82B9 /* MarketDetailViewController.swift */,
+				9ED963352D5454F4008E82B9 /* MarketDetailViewModel.swift */,
+				9ED9633D2D5487DB008E82B9 /* EmptyViewController.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
 		9EFEEFB32D504C680028E0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +154,13 @@
 				9EFEEFD52D504C820028E0E3 /* Assets.xcassets */,
 				9EFEEFDA2D504C820028E0E3 /* ViewController.swift */,
 				9EFEEFE62D508F710028E0E3 /* NetworkManager.swift */,
+				9ED963392D547A19008E82B9 /* Bundle+Extension.swift */,
 				9EFEEFE22D504C890028E0E3 /* Application */,
 				9EFEF0902D519ACE0028E0E3 /* Photo */,
 				9EFEF0952D51BA630028E0E3 /* MVVMBasic */,
+				9ED9632C2D543AAF008E82B9 /* Market */,
+				9ED963282D543AAF008E82B9 /* BoxOffice */,
+				9ED9633B2D547A53008E82B9 /* scret.xcconfig */,
 			);
 			path = SeventhWeek_SeSAC;
 			sourceTree = "<group>";
@@ -213,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED9633C2D547A53008E82B9 /* scret.xcconfig in Resources */,
 				9EFEEFDC2D504C820028E0E3 /* Assets.xcassets in Resources */,
 				9EFEEFDE2D504C820028E0E3 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -228,15 +278,25 @@
 				9EFEF0992D51BB8C0028E0E3 /* Observable.swift in Sources */,
 				9ED963052D52ED86008E82B9 /* LoginViewController.swift in Sources */,
 				9ED9630C2D5310F6008E82B9 /* LoginViewModel.swift in Sources */,
+				9ED9633A2D547A19008E82B9 /* Bundle+Extension.swift in Sources */,
 				9ED963062D52ED86008E82B9 /* NumberViewController.swift in Sources */,
+				9ED9632D2D543AAF008E82B9 /* MarketViewController.swift in Sources */,
+				9ED9632E2D543AAF008E82B9 /* BoxOfficeViewModel.swift in Sources */,
+				9ED9632F2D543AAF008E82B9 /* Market.swift in Sources */,
+				9ED963302D543AAF008E82B9 /* BoxOffice.swift in Sources */,
+				9ED963362D5454F4008E82B9 /* MarketDetailViewModel.swift in Sources */,
+				9ED963312D543AAF008E82B9 /* MarketViewModel.swift in Sources */,
+				9ED963322D543AAF008E82B9 /* BoxOfficeViewController.swift in Sources */,
 				9EFEEFE72D508F710028E0E3 /* NetworkManager.swift in Sources */,
 				9EFEF0942D51AD430028E0E3 /* BasicPHPickerViewController.swift in Sources */,
 				9EFEF0922D519AE90028E0E3 /* ImagePickerViewController.swift in Sources */,
 				9ED9630E2D533216008E82B9 /* PersonViewController.swift in Sources */,
+				9ED963342D544DFB008E82B9 /* MarketDetailViewController.swift in Sources */,
 				9ED963112D533767008E82B9 /* PersonViewModel.swift in Sources */,
 				9EFEEFDF2D504C820028E0E3 /* AppDelegate.swift in Sources */,
 				9EFEEFE02D504C820028E0E3 /* SceneDelegate.swift in Sources */,
 				9EFEEFE12D504C820028E0E3 /* ViewController.swift in Sources */,
+				9ED9633E2D5487DB008E82B9 /* EmptyViewController.swift in Sources */,
 				9ED963082D52FF81008E82B9 /* NumberViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +317,7 @@
 /* Begin XCBuildConfiguration section */
 		9EFEEFD02D504C6A0028E0E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED9633B2D547A53008E82B9 /* scret.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -265,7 +326,10 @@
 				DEVELOPMENT_TEAM = A95XXD5WT7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeventhWeek_SeSAC/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 촬용 권한이 필요합니다. 허용해주세요!";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 위치 권한을 허용해주세요. 위치를 허용해야 해당 위치의 날씨 정보를 불러올 수 있습니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "갤러리 접근 권한이 필요합니다. 허용해주세요!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -291,6 +355,7 @@
 		};
 		9EFEEFD12D504C6A0028E0E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED9633B2D547A53008E82B9 /* scret.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,7 +364,10 @@
 				DEVELOPMENT_TEAM = A95XXD5WT7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeventhWeek_SeSAC/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 촬용 권한이 필요합니다. 허용해주세요!";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 위치 권한을 허용해주세요. 위치를 허용해야 해당 위치의 날씨 정보를 불러올 수 있습니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "갤러리 접근 권한이 필요합니다. 허용해주세요!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
