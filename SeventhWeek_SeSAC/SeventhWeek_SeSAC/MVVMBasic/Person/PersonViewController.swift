@@ -57,7 +57,11 @@ class PersonViewController: UIViewController {
         loadButton.setTitle(viewModel.loadTitle, for: .normal)
         resetButton.setTitle(viewModel.resetTitle, for: .normal)
         
-        viewModel.people.bind { value in
+        bind()
+    }
+    
+    private func bind() {
+        viewModel.output.people.bind { value in
             self.tableView.reloadData()
         }
     }
@@ -97,11 +101,11 @@ class PersonViewController: UIViewController {
     // MARK: - Actions
     @objc private func loadButtonTapped() {
         //버튼을 클릭했다는 사실만 뷰모델에 알려주기.
-        viewModel.inputloadButtonTapped.value = ()
+        viewModel.input.inputloadButtonTapped.value = ()
     }
     
     @objc private func resetButtonTapped() {
-        viewModel.people.value.removeAll()
+        viewModel.output.people.value.removeAll()
         tableView.reloadData()
     }
     
@@ -110,12 +114,12 @@ class PersonViewController: UIViewController {
  
 extension PersonViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.people.value.count
+        return viewModel.output.people.value.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PersonCell", for: indexPath)
-        let person = viewModel.people.value[indexPath.row]
+        let person = viewModel.output.people.value[indexPath.row]
         cell.textLabel?.text = "\(person.name), \(person.age)세"
         return cell
     }

@@ -17,14 +17,29 @@ final class PersonViewModel {
     let resetTitle = "리셋버튼"
     let loadTitle = "로드버튼"
     
-    var inputloadButtonTapped: Observable<Void> = Observable(())
+    private(set) var input: Input
+    private(set) var output: Output
     
-    //테이블 뷰에 보여줄 데이터
-    var people: Observable<[Person]> = Observable([])
+    struct Input {
+        let inputloadButtonTapped: Observable<Void> = Observable(())
+    }
+    
+    struct Output {
+        //테이블 뷰에 보여줄 데이터
+        let people: Observable<[Person]> = Observable([])
+    }
     
     init() {
-        inputloadButtonTapped.lazyBind { _ in
-            self.people.value = self.generateRandomPeople()
+        input = Input()
+        output = Output()
+        
+        transform()
+    }
+    
+    private func transform() {
+        input.inputloadButtonTapped.lazyBind { [weak self] _ in
+            guard let self else {return}
+            self.output.people.value = self.generateRandomPeople()
         }
     }
     

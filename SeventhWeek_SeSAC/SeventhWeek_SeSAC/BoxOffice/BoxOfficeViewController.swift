@@ -57,35 +57,35 @@ final class BoxOfficeViewController: UIViewController {
     
     private func bindData() {
         //bind로 한다면 inputSelectedDate.bind가 먼저 실행되니 오늘 날짜가 뜬다.
-        viewModel.outputSelectedDate.bind { text in
+        viewModel.output.selectedDate.bind { text in
             self.dateTextField.text = text
             self.navigationItem.title = text
         }
         
-        viewModel.outputBoxOffice.lazyBind { _ in
+        viewModel.output.boxOffice.lazyBind { _ in
             self.tableView.reloadData()
         }
     }
     
     @objc private func datePickerValueChanged() {
         print(datePicker.date)
-        viewModel.inputSelectedDate.value = datePicker.date
+        viewModel.input.selectedDate.value = datePicker.date
     }
     
     @objc private func searchButtonTapped() {
         print(#function)
-        viewModel.inputSearchButtonTapped.value = ()
+        viewModel.input.searchButtonTapped.value = ()
     }
 }
 
 extension BoxOfficeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.outputBoxOffice.value.count
+        return viewModel.output.boxOffice.value.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath)
-        let data = viewModel.outputBoxOffice.value[indexPath.row]
+        let data = viewModel.output.boxOffice.value[indexPath.row]
         cell.textLabel?.text = "\(data.rank). \(data.movieNm) (관객수: \(data.audiCnt))"
         return cell
     }

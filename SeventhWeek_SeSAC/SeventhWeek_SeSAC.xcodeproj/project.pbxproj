@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9ED79EC02D59A220006107D7 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED79EBF2D59A220006107D7 /* BaseViewModel.swift */; };
 		9ED963052D52ED86008E82B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963032D52ED86008E82B9 /* LoginViewController.swift */; };
 		9ED963062D52ED86008E82B9 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963042D52ED86008E82B9 /* NumberViewController.swift */; };
 		9ED963082D52FF81008E82B9 /* NumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963072D52FF81008E82B9 /* NumberViewModel.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9ED79EBF2D59A220006107D7 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		9ED963032D52ED86008E82B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9ED963042D52ED86008E82B9 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
 		9ED963072D52FF81008E82B9 /* NumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewModel.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				9EFEEFDA2D504C820028E0E3 /* ViewController.swift */,
 				9EFEEFE62D508F710028E0E3 /* NetworkManager.swift */,
 				9ED963392D547A19008E82B9 /* Bundle+Extension.swift */,
+				9ED79EBF2D59A220006107D7 /* BaseViewModel.swift */,
 				9EFEEFE22D504C890028E0E3 /* Application */,
 				9EFEF0902D519ACE0028E0E3 /* Photo */,
 				9EFEF0952D51BA630028E0E3 /* MVVMBasic */,
@@ -280,6 +283,7 @@
 				9ED9630C2D5310F6008E82B9 /* LoginViewModel.swift in Sources */,
 				9ED9633A2D547A19008E82B9 /* Bundle+Extension.swift in Sources */,
 				9ED963062D52ED86008E82B9 /* NumberViewController.swift in Sources */,
+				9ED79EC02D59A220006107D7 /* BaseViewModel.swift in Sources */,
 				9ED9632D2D543AAF008E82B9 /* MarketViewController.swift in Sources */,
 				9ED9632E2D543AAF008E82B9 /* BoxOfficeViewModel.swift in Sources */,
 				9ED9632F2D543AAF008E82B9 /* Market.swift in Sources */,

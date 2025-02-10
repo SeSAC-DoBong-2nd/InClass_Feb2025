@@ -13,7 +13,7 @@ import SnapKit
 //2. didset
 //3. closure
 //4. init
-class Field<T> {
+final class Field<T> {
     
     private var closure: ((T) -> Void)?
     
@@ -64,11 +64,11 @@ final class NumberViewController: UIViewController {
         configureConstraints()
         configureActions()
         
-        viewModel.outputText.bind { text in
+        viewModel.output.fieldText.bind { text in
             self.formattedAmountLabel.text = text
         }
         
-        viewModel.outputTextColor.bind { flag in
+        viewModel.output.fieldTextColor.bind { flag in
             self.formattedAmountLabel.textColor = flag ? .blue : .red
         }
     }
@@ -78,7 +78,7 @@ final class NumberViewController: UIViewController {
     private func amountChanged() {
         print(#function)
         
-        viewModel.inputField.value = amountTextField.text
+        viewModel.input.field.value = amountTextField.text
         
         
     }
