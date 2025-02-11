@@ -90,6 +90,7 @@ final class NasaViewController: UIViewController {
     @objc
     private func requestButtonClicked() {
         print(#function)
+        requestButton.isUserInteractionEnabled = false
         buffer = Data()
         callRequest()
     }
@@ -158,6 +159,7 @@ extension NasaViewController: URLSessionDataDelegate {
             let image = UIImage(data: buffer)
             nasaImageView.image = image
         }
+        requestButton.isUserInteractionEnabled = true
     }
     
 }
