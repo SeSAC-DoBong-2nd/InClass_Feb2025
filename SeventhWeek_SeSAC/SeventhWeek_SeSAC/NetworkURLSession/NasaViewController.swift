@@ -145,6 +145,7 @@ extension NasaViewController: URLSessionDataDelegate {
         if let error = error?.localizedDescription {
             print("error: \(error)")
             progressLabel.text = "error 발생"
+            nasaImageView.image = UIImage(systemName: "star")
         } else {
             //completionHandler 시점과 사실상 동일
             //buffer -> Data -> Image -> ImageView에 표시
