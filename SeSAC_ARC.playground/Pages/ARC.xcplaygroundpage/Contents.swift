@@ -2,9 +2,9 @@ import UIKit
 
 //클래스, 구조체, 열거형 등에 다 사용가능
 //따라서 해당 프로토콜에 대한 delegate는 weak 키워드를 사용할 수 없음
-protocol JackProtocolAll: {
-    func numberOfRowsInSection()
-}
+//protocol JackProtocolAll: {
+//    func numberOfRowsInSection()
+//}
 
 //AnyObhect로 막아뒀기에 클래스만 가능
 //따라서 해당 프로토콜에 대한 delegate에 힙 영역의 메모리를 다루는 weak, unowned 등 키워드를 사용할 수 있다.

@@ -107,6 +107,12 @@ final class BoxOfficeViewModel {
             }
             
             //Data 디코딩
+            // do try catch - error handling ->
+            // server > client
+            // 위 내용은 15회차 or 20회차
+            /*
+             tmdb json > 키가 없는 경우.. nil..
+             */
             if let data = data, let movieData = try? JSONDecoder().decode(BoxOfficeResult.self, from: data) {
                 dump(movieData)
                 DispatchQueue.main.async {
