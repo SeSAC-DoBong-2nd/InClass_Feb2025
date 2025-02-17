@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         self.window = UIWindow(windowScene: windowScene)
         
-        self.window?.rootViewController = UINavigationController(rootViewController: NasaViewController())
+        self.window?.rootViewController = UINavigationController(rootViewController: NotificationViewController())
         
         self.window?.makeKeyAndVisible()
     }
@@ -29,8 +29,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
-        // Called when the scene has moved from an inactive state to an active state.
-        // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        
+        //#Badge 제거
+//        UIApplication.shared.applicationIconBadgeNumber = 0 //deprecated 됨
+        UNUserNotificationCenter.current().setBadgeCount(0) { error in
+            print("현재 error: \(error)")
+        }
+        
+//        //사용자에게 전달되어 있는 알람 제거 (default 값은 알람을 클릭해서 열어줘야 해당 알람만 제거됨!)
+//        UNUserNotificationCenter.current().removeAllDeliveredNotifications()
+//        
+//        //사용자에게 아직 전달되지 않았지만, 앞으로 전달될 알람을 제가
+//        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+    
+        
     }
 
     func sceneWillResignActive(_ scene: UIScene) {

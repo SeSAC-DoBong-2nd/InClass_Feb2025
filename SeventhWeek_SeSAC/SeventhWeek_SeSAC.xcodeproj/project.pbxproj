@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E3E252C2D5ACD1800AF70F1 /* NasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E252B2D5ACD1800AF70F1 /* NasaViewController.swift */; };
+		9E63E8CE2D5D7D40007EC1FF /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63E8CD2D5D7D40007EC1FF /* NotificationViewController.swift */; };
 		9ED79EC02D59A220006107D7 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED79EBF2D59A220006107D7 /* BaseViewModel.swift */; };
 		9ED963052D52ED86008E82B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963032D52ED86008E82B9 /* LoginViewController.swift */; };
 		9ED963062D52ED86008E82B9 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED963042D52ED86008E82B9 /* NumberViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		9E3E252B2D5ACD1800AF70F1 /* NasaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaViewController.swift; sourceTree = "<group>"; };
+		9E63E8CD2D5D7D40007EC1FF /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		9ED79EBF2D59A220006107D7 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		9ED963032D52ED86008E82B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9ED963042D52ED86008E82B9 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 				9E3E252B2D5ACD1800AF70F1 /* NasaViewController.swift */,
 			);
 			path = NetworkURLSession;
+			sourceTree = "<group>";
+		};
+		9E63E8CC2D5D7D2E007EC1FF /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				9E63E8CD2D5D7D40007EC1FF /* NotificationViewController.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 		9ED963092D52FF87008E82B9 /* Number */ = {
@@ -174,6 +184,7 @@
 				9ED9632C2D543AAF008E82B9 /* Market */,
 				9ED963282D543AAF008E82B9 /* BoxOffice */,
 				9E3E252A2D5ACCF100AF70F1 /* NetworkURLSession */,
+				9E63E8CC2D5D7D2E007EC1FF /* Notification */,
 				9ED9633B2D547A53008E82B9 /* scret.xcconfig */,
 			);
 			path = SeventhWeek_SeSAC;
@@ -311,6 +322,7 @@
 				9ED963112D533767008E82B9 /* PersonViewModel.swift in Sources */,
 				9EFEEFDF2D504C820028E0E3 /* AppDelegate.swift in Sources */,
 				9EFEEFE02D504C820028E0E3 /* SceneDelegate.swift in Sources */,
+				9E63E8CE2D5D7D40007EC1FF /* NotificationViewController.swift in Sources */,
 				9EFEEFE12D504C820028E0E3 /* ViewController.swift in Sources */,
 				9ED9633E2D5487DB008E82B9 /* EmptyViewController.swift in Sources */,
 				9ED963082D52FF81008E82B9 /* NumberViewModel.swift in Sources */,
