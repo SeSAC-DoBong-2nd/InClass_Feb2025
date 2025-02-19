@@ -6,11 +6,21 @@
 //
 
 import UIKit
+
+import RxCocoa
+import RxSwift
 import SnapKit
 
 final class SearchTableViewCell: UITableViewCell {
     
     static let identifier = "SearchTableViewCell"
+    var disposeBag = DisposeBag()
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        //중첩구독 방지, cell에서 관리해버리기
+        disposeBag = DisposeBag()
+    }
     
     let appNameLabel: UILabel = {
         let label = UILabel()

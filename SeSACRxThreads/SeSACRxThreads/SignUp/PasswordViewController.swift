@@ -82,13 +82,13 @@ class PasswordViewController: UIViewController {
                 let random = ["칙촉", "56", "케케몬"]
                 owner.password.onNext(random.randomElement() ?? "랜덤")
                 
-                owner.navigationController?.pushViewController(PhoneViewController(), animated: true)
+                owner.navigationController?.pushViewController(PhoneViewController(viewModel: PhoneViewModel()), animated: true)
                 
             }.disposed(by: disposeBag)
     }
     
     @objc func nextButtonClicked() {
-        navigationController?.pushViewController(PhoneViewController(), animated: true)
+        navigationController?.pushViewController(PhoneViewController(viewModel: PhoneViewModel()), animated: true)
     }
     
     func configureLayout() {

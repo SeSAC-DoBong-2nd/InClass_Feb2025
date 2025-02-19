@@ -30,6 +30,10 @@
 		04F6DC022C5B0D8200667F4D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6DC012C5B0D8200667F4D /* DetailViewController.swift */; };
 		9E8EE4472D62C250006246E7 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 9E8EE4462D62C250006246E7 /* RxCocoa */; };
 		9E8EE4492D62C250006246E7 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9E8EE4482D62C250006246E7 /* RxSwift */; };
+		9EA269982D65646900029A14 /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA269972D65646900029A14 /* PhoneViewModel.swift */; };
+		9EA2699F2D6572E100029A14 /* NewBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA2699E2D6572E100029A14 /* NewBirthdayViewModel.swift */; };
+		9EA269A32D65745A00029A14 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA269A22D65745A00029A14 /* Then */; };
+		9EA269A62D6579E700029A14 /* NewBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA269A42D65799C00029A14 /* NewBirthdayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,9 @@
 		04F6DBFD2C5B0C0300667F4D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		04F6DBFF2C5B0C2200667F4D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		04F6DC012C5B0D8200667F4D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9EA269972D65646900029A14 /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		9EA2699E2D6572E100029A14 /* NewBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBirthdayViewModel.swift; sourceTree = "<group>"; };
+		9EA269A42D65799C00029A14 /* NewBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBirthdayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,7 @@
 				9E8EE4492D62C250006246E7 /* RxSwift in Frameworks */,
 				9E8EE4472D62C250006246E7 /* RxCocoa in Frameworks */,
 				04B0606A2D62A9D300A3155E /* SnapKit in Frameworks */,
+				9EA269A32D65745A00029A14 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,8 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				0412806E2AEFAD2D00972552 /* BirthdayViewController.swift */,
-				041280702AEFAD3D00972552 /* PhoneViewController.swift */,
 				041280722AEFAD4B00972552 /* NicknameViewController.swift */,
+				9EA269962D65645700029A14 /* Phone */,
+				9EA2699B2D65723200029A14 /* NewBirthday */,
 			);
 			path = SignUpOptional;
 			sourceTree = "<group>";
@@ -204,6 +213,24 @@
 				04F6DC012C5B0D8200667F4D /* DetailViewController.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		9EA269962D65645700029A14 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				9EA269972D65646900029A14 /* PhoneViewModel.swift */,
+				041280702AEFAD3D00972552 /* PhoneViewController.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		9EA2699B2D65723200029A14 /* NewBirthday */ = {
+			isa = PBXGroup;
+			children = (
+				9EA2699E2D6572E100029A14 /* NewBirthdayViewModel.swift */,
+				9EA269A42D65799C00029A14 /* NewBirthdayViewController.swift */,
+			);
+			path = NewBirthday;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +253,7 @@
 				04B060692D62A9D300A3155E /* SnapKit */,
 				9E8EE4462D62C250006246E7 /* RxCocoa */,
 				9E8EE4482D62C250006246E7 /* RxSwift */,
+				9EA269A22D65745A00029A14 /* Then */,
 			);
 			productName = SeSACRxThreads;
 			productReference = 041280202AEF9BAB00972552 /* SeSACRxThreads.app */;
@@ -302,6 +330,7 @@
 			packageReferences = (
 				04B060682D62A9D300A3155E /* XCRemoteSwiftPackageReference "SnapKit" */,
 				9E8EE4452D62C250006246E7 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				9EA269A12D65745A00029A14 /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = 041280212AEF9BAB00972552 /* Products */;
 			projectDirPath = "";
@@ -350,6 +379,8 @@
 				041280652AEFA2F000972552 /* SignTextField.swift in Sources */,
 				0412806C2AEFABFE00972552 /* PasswordViewController.swift in Sources */,
 				041280562AEFA04800972552 /* SignInViewController.swift in Sources */,
+				9EA269982D65646900029A14 /* PhoneViewModel.swift in Sources */,
+				9EA269A62D6579E700029A14 /* NewBirthdayViewController.swift in Sources */,
 				041280282AEF9BAB00972552 /* ViewController.swift in Sources */,
 				041280632AEFA0CE00972552 /* PointButton.swift in Sources */,
 				04F6DC022C5B0D8200667F4D /* DetailViewController.swift in Sources */,
@@ -358,6 +389,7 @@
 				04F6DC002C5B0C2200667F4D /* SearchTableViewCell.swift in Sources */,
 				041280732AEFAD4B00972552 /* NicknameViewController.swift in Sources */,
 				0412806A2AEFA91E00972552 /* SignUpViewController.swift in Sources */,
+				9EA2699F2D6572E100029A14 /* NewBirthdayViewModel.swift in Sources */,
 				041280712AEFAD3D00972552 /* PhoneViewController.swift in Sources */,
 				041280262AEF9BAB00972552 /* SceneDelegate.swift in Sources */,
 			);
@@ -716,6 +748,14 @@
 				minimumVersion = 6.8.0;
 			};
 		};
+		9EA269A12D65745A00029A14 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -733,6 +773,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9E8EE4452D62C250006246E7 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		9EA269A22D65745A00029A14 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EA269A12D65745A00029A14 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
