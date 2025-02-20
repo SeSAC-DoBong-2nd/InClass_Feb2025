@@ -34,6 +34,10 @@
 		9EA2699F2D6572E100029A14 /* NewBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA2699E2D6572E100029A14 /* NewBirthdayViewModel.swift */; };
 		9EA269A32D65745A00029A14 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA269A22D65745A00029A14 /* Then */; };
 		9EA269A62D6579E700029A14 /* NewBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA269A42D65799C00029A14 /* NewBirthdayViewController.swift */; };
+		9EA269BE2D66EF2600029A14 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA269BD2D66EF2600029A14 /* UserCollectionViewCell.swift */; };
+		9EA269BF2D66EF2600029A14 /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA269BB2D66EF2600029A14 /* HomeworkViewController.swift */; };
+		9EA269C02D66EF2600029A14 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA269BC2D66EF2600029A14 /* PersonTableViewCell.swift */; };
+		9EA269C32D66FB1E00029A14 /* HomeworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA269C22D66FB1E00029A14 /* HomeworkViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,10 @@
 		9EA269972D65646900029A14 /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
 		9EA2699E2D6572E100029A14 /* NewBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBirthdayViewModel.swift; sourceTree = "<group>"; };
 		9EA269A42D65799C00029A14 /* NewBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBirthdayViewController.swift; sourceTree = "<group>"; };
+		9EA269BB2D66EF2600029A14 /* HomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
+		9EA269BC2D66EF2600029A14 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		9EA269BD2D66EF2600029A14 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		9EA269C22D66FB1E00029A14 /* HomeworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,7 @@
 		041280222AEF9BAB00972552 /* SeSACRxThreads */ = {
 			isa = PBXGroup;
 			children = (
+				9EA269BA2D66EF1400029A14 /* Homework */,
 				041280532AEF9C1F00972552 /* SignUp */,
 				041280542AEF9C2600972552 /* SignIn */,
 				0412806D2AEFAD0F00972552 /* SignUpOptional */,
@@ -231,6 +240,25 @@
 				9EA269A42D65799C00029A14 /* NewBirthdayViewController.swift */,
 			);
 			path = NewBirthday;
+			sourceTree = "<group>";
+		};
+		9EA269BA2D66EF1400029A14 /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+				9EA269C12D66FB1100029A14 /* ViewModel */,
+				9EA269BB2D66EF2600029A14 /* HomeworkViewController.swift */,
+				9EA269BC2D66EF2600029A14 /* PersonTableViewCell.swift */,
+				9EA269BD2D66EF2600029A14 /* UserCollectionViewCell.swift */,
+			);
+			path = Homework;
+			sourceTree = "<group>";
+		};
+		9EA269C12D66FB1100029A14 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9EA269C22D66FB1E00029A14 /* HomeworkViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,7 +412,11 @@
 				041280282AEF9BAB00972552 /* ViewController.swift in Sources */,
 				041280632AEFA0CE00972552 /* PointButton.swift in Sources */,
 				04F6DC022C5B0D8200667F4D /* DetailViewController.swift in Sources */,
+				9EA269BE2D66EF2600029A14 /* UserCollectionViewCell.swift in Sources */,
+				9EA269BF2D66EF2600029A14 /* HomeworkViewController.swift in Sources */,
+				9EA269C02D66EF2600029A14 /* PersonTableViewCell.swift in Sources */,
 				041280242AEF9BAB00972552 /* AppDelegate.swift in Sources */,
+				9EA269C32D66FB1E00029A14 /* HomeworkViewModel.swift in Sources */,
 				04F6DBFE2C5B0C0300667F4D /* SearchViewController.swift in Sources */,
 				04F6DC002C5B0C2200667F4D /* SearchTableViewCell.swift in Sources */,
 				041280732AEFAD4B00972552 /* NicknameViewController.swift in Sources */,
