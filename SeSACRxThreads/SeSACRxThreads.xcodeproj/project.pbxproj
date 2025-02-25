@@ -41,6 +41,9 @@
 		9EA26AAF2D6BF66E00029A14 /* NewSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26AAE2D6BF66E00029A14 /* NewSearchViewController.swift */; };
 		9EA26AB22D6BF88000029A14 /* NewSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26AB12D6BF88000029A14 /* NewSearchViewModel.swift */; };
 		9EA26AB42D6C0B2D00029A14 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26AB32D6C0B2D00029A14 /* NetworkManager.swift */; };
+		9EA26AC72D6D66D700029A14 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA26AC62D6D66D700029A14 /* Differentiator */; };
+		9EA26AC92D6D66D700029A14 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA26AC82D6D66D700029A14 /* RxDataSources */; };
+		9EA26ACB2D6D673500029A14 /* MultiSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26ACA2D6D673500029A14 /* MultiSectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,7 @@
 		9EA26AAE2D6BF66E00029A14 /* NewSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewController.swift; sourceTree = "<group>"; };
 		9EA26AB12D6BF88000029A14 /* NewSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewModel.swift; sourceTree = "<group>"; };
 		9EA26AB32D6C0B2D00029A14 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9EA26ACA2D6D673500029A14 /* MultiSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E8EE4492D62C250006246E7 /* RxSwift in Frameworks */,
+				9EA26AC72D6D66D700029A14 /* Differentiator in Frameworks */,
 				9E8EE4472D62C250006246E7 /* RxCocoa in Frameworks */,
+				9EA26AC92D6D66D700029A14 /* RxDataSources in Frameworks */,
 				04B0606A2D62A9D300A3155E /* SnapKit in Frameworks */,
 				9EA269A32D65745A00029A14 /* Then in Frameworks */,
 			);
@@ -223,6 +229,7 @@
 		04F6DBFC2C5B0BC200667F4D /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				9EA26ACC2D6D673D00029A14 /* RxDataSources */,
 				9EA26AB02D6BF86C00029A14 /* NewSearch */,
 				04F6DBFD2C5B0C0300667F4D /* SearchViewController.swift */,
 				04F6DBFF2C5B0C2200667F4D /* SearchTableViewCell.swift */,
@@ -278,6 +285,14 @@
 			path = NewSearch;
 			sourceTree = "<group>";
 		};
+		9EA26ACC2D6D673D00029A14 /* RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				9EA26ACA2D6D673500029A14 /* MultiSectionViewController.swift */,
+			);
+			path = RxDataSources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -299,6 +314,8 @@
 				9E8EE4462D62C250006246E7 /* RxCocoa */,
 				9E8EE4482D62C250006246E7 /* RxSwift */,
 				9EA269A22D65745A00029A14 /* Then */,
+				9EA26AC62D6D66D700029A14 /* Differentiator */,
+				9EA26AC82D6D66D700029A14 /* RxDataSources */,
 			);
 			productName = SeSACRxThreads;
 			productReference = 041280202AEF9BAB00972552 /* SeSACRxThreads.app */;
@@ -376,6 +393,7 @@
 				04B060682D62A9D300A3155E /* XCRemoteSwiftPackageReference "SnapKit" */,
 				9E8EE4452D62C250006246E7 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				9EA269A12D65745A00029A14 /* XCRemoteSwiftPackageReference "Then" */,
+				9EA26AC52D6D66D700029A14 /* XCRemoteSwiftPackageReference "RxDataSources" */,
 			);
 			productRefGroup = 041280212AEF9BAB00972552 /* Products */;
 			projectDirPath = "";
@@ -433,6 +451,7 @@
 				9EA269BE2D66EF2600029A14 /* UserCollectionViewCell.swift in Sources */,
 				9EA269BF2D66EF2600029A14 /* HomeworkViewController.swift in Sources */,
 				9EA269C02D66EF2600029A14 /* PersonTableViewCell.swift in Sources */,
+				9EA26ACB2D6D673500029A14 /* MultiSectionViewController.swift in Sources */,
 				041280242AEF9BAB00972552 /* AppDelegate.swift in Sources */,
 				9EA26AB22D6BF88000029A14 /* NewSearchViewModel.swift in Sources */,
 				9EA269C32D66FB1E00029A14 /* HomeworkViewModel.swift in Sources */,
@@ -808,6 +827,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		9EA26AC52D6D66D700029A14 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -830,6 +857,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9EA269A12D65745A00029A14 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		9EA26AC62D6D66D700029A14 /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EA26AC52D6D66D700029A14 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		9EA26AC82D6D66D700029A14 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EA26AC52D6D66D700029A14 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
