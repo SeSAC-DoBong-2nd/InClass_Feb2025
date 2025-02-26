@@ -44,6 +44,8 @@
 		9EA26AC72D6D66D700029A14 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA26AC62D6D66D700029A14 /* Differentiator */; };
 		9EA26AC92D6D66D700029A14 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA26AC82D6D66D700029A14 /* RxDataSources */; };
 		9EA26ACB2D6D673500029A14 /* MultiSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26ACA2D6D673500029A14 /* MultiSectionViewController.swift */; };
+		9EA26B082D6E9DE000029A14 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26B072D6E9DE000029A14 /* SimpleTableViewController.swift */; };
+		9EA26B0A2D6EA25700029A14 /* SimpleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26B092D6EA25700029A14 /* SimpleCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		9EA26AB12D6BF88000029A14 /* NewSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewModel.swift; sourceTree = "<group>"; };
 		9EA26AB32D6C0B2D00029A14 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9EA26ACA2D6D673500029A14 /* MultiSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSectionViewController.swift; sourceTree = "<group>"; };
+		9EA26B072D6E9DE000029A14 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		9EA26B092D6EA25700029A14 /* SimpleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 		041280222AEF9BAB00972552 /* SeSACRxThreads */ = {
 			isa = PBXGroup;
 			children = (
+				9EA26B042D6E9D8A00029A14 /* CompositionalDiffable */,
 				9EA269BA2D66EF1400029A14 /* Homework */,
 				041280532AEF9C1F00972552 /* SignUp */,
 				041280542AEF9C2600972552 /* SignIn */,
@@ -291,6 +296,15 @@
 				9EA26ACA2D6D673500029A14 /* MultiSectionViewController.swift */,
 			);
 			path = RxDataSources;
+			sourceTree = "<group>";
+		};
+		9EA26B042D6E9D8A00029A14 /* CompositionalDiffable */ = {
+			isa = PBXGroup;
+			children = (
+				9EA26B072D6E9DE000029A14 /* SimpleTableViewController.swift */,
+				9EA26B092D6EA25700029A14 /* SimpleCollectionViewController.swift */,
+			);
+			path = CompositionalDiffable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +455,7 @@
 				0412806F2AEFAD2D00972552 /* BirthdayViewController.swift in Sources */,
 				041280652AEFA2F000972552 /* SignTextField.swift in Sources */,
 				0412806C2AEFABFE00972552 /* PasswordViewController.swift in Sources */,
+				9EA26B0A2D6EA25700029A14 /* SimpleCollectionViewController.swift in Sources */,
 				041280562AEFA04800972552 /* SignInViewController.swift in Sources */,
 				9EA269982D65646900029A14 /* PhoneViewModel.swift in Sources */,
 				9EA269A62D6579E700029A14 /* NewBirthdayViewController.swift in Sources */,
@@ -461,6 +476,7 @@
 				0412806A2AEFA91E00972552 /* SignUpViewController.swift in Sources */,
 				9EA2699F2D6572E100029A14 /* NewBirthdayViewModel.swift in Sources */,
 				9EA26AB42D6C0B2D00029A14 /* NetworkManager.swift in Sources */,
+				9EA26B082D6E9DE000029A14 /* SimpleTableViewController.swift in Sources */,
 				041280712AEFAD3D00972552 /* PhoneViewController.swift in Sources */,
 				041280262AEF9BAB00972552 /* SceneDelegate.swift in Sources */,
 			);
