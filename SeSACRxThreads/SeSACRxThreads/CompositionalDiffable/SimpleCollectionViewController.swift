@@ -113,7 +113,7 @@ final class SimpleCollectionViewController: UIViewController {
         //cellForItemAt 내부 코드
         //+@ 클로저 속 매개변수가 하나라면 생략 가능. 따라서, handler 매개변수 생략
         let registration = UICollectionView.CellRegistration<UICollectionViewListCell, Product> { cell, indexPath, itemIdentifier in
-            var content = UIListContentConfiguration.valueCell()
+            var content = UIListContentConfiguration.subtitleCell()
             content.text = itemIdentifier.name
             content.textProperties.color = .brown
             content.textProperties.font = .boldSystemFont(ofSize: 20)

@@ -46,6 +46,8 @@
 		9EA26ACB2D6D673500029A14 /* MultiSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26ACA2D6D673500029A14 /* MultiSectionViewController.swift */; };
 		9EA26B082D6E9DE000029A14 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26B072D6E9DE000029A14 /* SimpleTableViewController.swift */; };
 		9EA26B0A2D6EA25700029A14 /* SimpleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26B092D6EA25700029A14 /* SimpleCollectionViewController.swift */; };
+		9EA26B162D6FEA9000029A14 /* CompositionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26B152D6FEA9000029A14 /* CompositionalViewController.swift */; };
+		9EA26B182D70001500029A14 /* CompositionalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA26B172D70001500029A14 /* CompositionalCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,8 @@
 		9EA26ACA2D6D673500029A14 /* MultiSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSectionViewController.swift; sourceTree = "<group>"; };
 		9EA26B072D6E9DE000029A14 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		9EA26B092D6EA25700029A14 /* SimpleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewController.swift; sourceTree = "<group>"; };
+		9EA26B152D6FEA9000029A14 /* CompositionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalViewController.swift; sourceTree = "<group>"; };
+		9EA26B172D70001500029A14 /* CompositionalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +307,8 @@
 			children = (
 				9EA26B072D6E9DE000029A14 /* SimpleTableViewController.swift */,
 				9EA26B092D6EA25700029A14 /* SimpleCollectionViewController.swift */,
+				9EA26B152D6FEA9000029A14 /* CompositionalViewController.swift */,
+				9EA26B172D70001500029A14 /* CompositionalCollectionViewCell.swift */,
 			);
 			path = CompositionalDiffable;
 			sourceTree = "<group>";
@@ -451,7 +457,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA26B182D70001500029A14 /* CompositionalCollectionViewCell.swift in Sources */,
 				041280782AF1D14000972552 /* Resource.swift in Sources */,
+				9EA26B162D6FEA9000029A14 /* CompositionalViewController.swift in Sources */,
 				0412806F2AEFAD2D00972552 /* BirthdayViewController.swift in Sources */,
 				041280652AEFA2F000972552 /* SignTextField.swift in Sources */,
 				0412806C2AEFABFE00972552 /* PasswordViewController.swift in Sources */,
